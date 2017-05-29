@@ -52,6 +52,7 @@ public class GoogleStaticMap : MonoBehaviour {
 	}
 		
 	// Choose zoom level between 0 to 20.
+	[HideInInspector]
 	public int zoom = 15;
 
 	// Sets the overlap percentage between two adjacent tiles of map.
